@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kalam&display=swap');
+
+:root {
+    --fonte-padrao: 'Kalam', cursive;
+    --fonte-destaque: 'Antom', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    font-family: var(--fonte-destaque);
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 35px;
+}
+
+header > h1 {
+    font-size: 2.5em;
+    padding-bottom: 5px;
+}
+
+header > p {
+    font-size: .8em;
+}
+
+main {
+    text-align: justify;
+    padding: 80px 0 30px 15px;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: var(--fonte-padrao);
+}
+
+section {
+    margin-bottom: 100px;
+    
+}
+
+#diferente {
+    margin: 0 -30px 80px -30px; 
+    padding: 55px 30px 120px 30px;
+    background: blue url('pacote-d012/imagens/background001.jpg') right center scroll;
+    background-size: 130% 130%;
+}
+
+#diferente p{
+    padding: 10px 0px 10px 10px;
+    font-weight: normal;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 250px;
+}
+
