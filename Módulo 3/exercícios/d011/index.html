@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio do Astronauta</title>
+    <style>
+        #fora{
+            height: 96vh;
+            background-color: black;
+            background-image: url('espaco.jpg');
+            background-size: 100% 100%;
+
+            position: relative;
+        }
+
+        #dentro{
+            position: absolute;
+            width: 450px;
+            height: 500px;
+            background-size: 100% 100%;
+            
+            background-image: url('astronauta.png');
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
+
+
+
+
+        }
+    </style>
 </head>
 <body>
+    <main id="fora">
+        <article id="dentro"></article>
+    </main>
     
 </body>
 </html>
